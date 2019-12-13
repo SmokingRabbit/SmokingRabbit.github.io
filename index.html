@@ -9,8 +9,8 @@
 	<meta name="description" content="Smoking Rabbit personal website" />
 	<link rel="stylesheet" href="css/basic.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="css/gradient.css" />
+	<link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 	<link href="https://cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 </head>
 
@@ -61,25 +61,31 @@
 						<li class="active">
 							<a href="#about-card">
 								<span class="icon ion-person"></span>
-								<span class="link">About</span>
+								<span class="link">关于我</span>
 							</a>
 						</li>
 						<li>
 							<a href="#resume-card">
 								<span class="icon ion-android-list"></span>
-								<span class="link">Resume</span>
+								<span class="link">成长历程</span>
 							</a>
 						</li>
 						<li>
 							<a href="#works-card">
-								<span class="icon ion-paintbrush"></span>
-								<span class="link">Works</span>
+								<span class="icon ion-social-github"></span>
+								<span class="link">开源项目</span>
+							</a>
+						</li>
+						<li>
+							<a href="#blog-card">
+								<span class="icon ion-chatbox-working"></span>
+								<span class="link">博客</span>
 							</a>
 						</li>
 						<li>
 							<a href="#contacts-card">
 								<span class="icon ion-at"></span>
-								<span class="link">Contact</span>
+								<span class="link">联系我</span>
 							</a>
 						</li>
 					</ul>
@@ -94,26 +100,26 @@
 				<div class="profile">
 
 					<!-- profile image -->
-					<div class="slide" style="background-image: url('images/bg.jpg');"></div>
+					<div class="slide"></div>
 
 					<!-- profile photo -->
 					<div class="image">
-						<img src="images/avatar.jpg" alt="" />
+						<img src="images/avatar.jpg" />
 					</div>
 
 					<!-- profile titles -->
 					<div class="title">Smoking Rabbit</div>
-					<div class="subtitle">Front-end Developer</div>
-					<div>Love open source, like build wheels of small white</div>
+					<div class="subtitle">努力成为全栈工程师的前端工程师</div>
+					<div>热爱开源、喜欢造轱辘，正在努力起飞的小小白!</div>
 
 					<!-- profile buttons -->
 					<div class="lnks">
 						<a href="https://github.com/ege-ui" class="lnk">
-							<span class="text">Ege Development Team</span>
+							<span class="text">加入ege开发团队</span>
 							<span class="ion ion-beer"></span>
 						</a>
 						<a href="#" class="lnk discover">
-							<span class="text">Contact Me</span>
+							<span class="text">联系我</span>
 							<span class="arrow"></span>
 						</a>
 					</div>
@@ -130,29 +136,22 @@
 					<div class="content about">
 
 						<!-- title -->
-						<div class="title">About Me</div>
+						<div class="title">关于我</div>
 
 						<!-- content -->
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
 								<div class="text-box">
-									<p>
-										My net name is smoking rabbit, the real name is not convenient to reveal. Love open source, like to write code, many years of self-study, but still a did not take off the small white; I have a wide range of
-										interests, including designing
-										for myself, drawing prototypes for myself, and eating everything back and forth (ok, I can't brag anymore). Read a university, rely on self-study completely, go up class, do not like to move brick everyday,
-										like the job that has challenge!
-									</p>
-									<p>
-										If you love open source and the front end, invite you to join the Ege Development Team to find the joys of technology and build wheels together.
-									</p>
+									<p>本人网名抽烟的兔子，北漂多年，6年互联网开发经验，常年混迹github等社区潜水。热爱开源、喜欢造轱辘。涉猎颇广，自己画过sketch设计稿、拿axure画过原型，自己当QA，自己堆后端，工作再忙也会抽空写开源。一直在向全栈程序猿努力。</p>
+									<p>如果你热爱开源，喜欢前端，偶尔鼓捣鼓捣后端，欢迎你加入ege开发团队。</p>
 								</div>
 
 								<div class="info-list">
 									<ul>
-										<li><strong>Age . . . . .</strong> 29</li>
-										<li><strong>Residence . . . . .</strong> CHINA</li>
-										<li><strong>GENDER . . . . .</strong> ♂</li>
-										<li><strong>Address . . . . .</strong> Beijing, CHINA</li>
+										<li><strong>年龄 . . . . . . . .</strong> 29</li>
+										<li><strong>国籍 . . . . . . . .</strong> 中国</li>
+										<li><strong>性别 . . . . . . . .</strong> ♂</li>
+										<li><strong>地址 . . . . . . . .</strong> 北京</li>
 									</ul>
 								</div>
 							</div>
@@ -164,7 +163,7 @@
 					<div class="content experiences">
 
 						<!-- title -->
-						<div class="title">My Experiences</div>
+						<div class="title">经验</div>
 
 						<!-- content -->
 						<div class="row experience-items border-line-v">
@@ -173,11 +172,8 @@
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="experiences-item">
 									<div class="icon"><span class="ion ion-code"></span></div>
-									<div class="name">Front-end development</div>
-									<p>
-										From IE6 to modern browsers, I have millions of traffic experience, familiar with React, Vue and other front-end frameworks, have experience in component library development, and have experience in large-scale
-										projects.
-									</p>
+									<div class="name">前端开发</div>
+									<p>14年正式投身互联网开发行业，从IE6的大船逐步过渡到现代浏览器；从原生js过渡到es，顺利上了mvvm的方舟；玩过小程序、搞过脚手架……</p>
 								</div>
 							</div>
 
@@ -185,11 +181,8 @@
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 								<div class="experiences-item">
 									<div class="icon"><span class="ion ion-code-working"></span></div>
-									<div class="name">Back-end development</div>
-									<p>
-										PHP, nodejs development, familiar with yaf, express and other frameworks, have experience in distributed development, proficient in using Linux and shell.Experience in large-scale project development, operation
-										and maintenance.
-									</p>
+									<div class="name">后端开发</div>
+									<p>大学自学PHP，以为能上了RD的大船，谁知校招面试时被HR忽悠到了前端的岗。搞过Yaf、玩过nodejs、玩过分布式、搞过负载均衡、整过双机热备……</p>
 								</div>
 							</div>
 
@@ -197,10 +190,8 @@
 							<div class="col col-d-6 col-t-6 col-m-12">
 								<div class="experiences-item">
 									<div class="icon"><span class="ion ion-leaf"></span></div>
-									<div class="name">Canvas</div>
-									<p>
-										Sigme.js secondary development experience, a large number of graph development experience.
-									</p>
+									<div class="name">数据可视化</div>
+									<p>16年离开百度后，一直就职于大数据公司。二次开发过sigma……</p>
 								</div>
 							</div>
 
@@ -208,10 +199,8 @@
 							<div class="col col-d-6 col-t-6 col-m-12">
 								<div class="experiences-item">
 									<div class="icon"><span class="ion ion-map"></span></div>
-									<div class="name">Map</div>
-									<p>
-										Experience in osm system construction and 3d feature front-end development.
-									</p>
+									<div class="name">GIS</div>
+									<p>热爱OpenStreetMap，搞过独立部署和业务定制开发……</p>
 								</div>
 							</div>
 
@@ -230,7 +219,7 @@
 					<div class="content resume">
 
 						<!-- title -->
-						<div class="title">Resume</div>
+						<div class="title">成长历程</div>
 
 						<!-- content -->
 						<div class="row">
@@ -239,24 +228,20 @@
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 								<div class="resume-title border-line-h">
 									<div class="icon"><i class="ion ion-briefcase"></i></div>
-									<div class="name">Experience</div>
+									<div class="name">工作经历</div>
 								</div>
 								<div class="resume-items">
 									<div class="resume-item border-line-h active">
-										<div class="date">2016 - Present</div>
-										<div class="name">FE Developer</div>
-										<div class="company">Confidentiality</div>
-										<p>
-											Develop using the React family.
-										</p>
+										<div class="date">2016 - 现在</div>
+										<div class="name">前端开发</div>
+										<div class="company">保密（某大数据公司）</div>
+										<p>使用React全家桶进行前端基础业务开发；知识图谱业务开发；GIS业务开发；组件库、脚手架开发……</p>
 									</div>
 									<div class="resume-item">
 										<div class="date">2014 - 2016</div>
-										<div class="name">FE Developer</div>
-										<div class="company">Baidu Inc.</div>
-										<p>
-											Develop using the fis framework.
-										</p>
+										<div class="name">前端开发</div>
+										<div class="company">百度</div>
+										<p>使用Fis框架集合jquery、原生js进行基础业务开发；重构过某产品线业务（现在回头看过去写的代码真垃圾）……</p>
 									</div>
 								</div>
 							</div>
@@ -265,24 +250,20 @@
 							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 								<div class="resume-title border-line-h">
 									<div class="icon"><i class="ion ion-university"></i></div>
-									<div class="name">Education</div>
+									<div class="name">教育经历</div>
 								</div>
 								<div class="resume-items">
 									<div class="resume-item border-line-h">
-										<div class="date">2016 - Present</div>
-										<div class="name">Northeast Normal University</div>
-										<div class="company">Jilin</div>
-										<p>
-											Major in computer science and technology.
-										</p>
+										<div class="date">2019 - Present</div>
+										<div class="name">东北师范大学</div>
+										<div class="company">吉林</div>
+										<p>计算机科学与技术专业深造（其实就是考个证好看）</p>
 									</div>
 									<div class="resume-item border-line-h">
 										<div class="date">2011 - 2015</div>
-										<div class="name">Home University</div>
-										<div class="company">Shenyang</div>
-										<p>
-											Major in computer science and technology.
-										</p>
+										<div class="name">家里蹲大学（垃圾二本）</div>
+										<div class="company">沈阳</div>
+										<p>专业计算机科学与技术，老师上课基本就是读PPT，大学三年全靠自学（老师就是渣），大四就入职百度了，从此say再见！</p>
 									</div>
 								</div>
 							</div>
@@ -296,7 +277,7 @@
 					<div class="content skills">
 
 						<!-- title -->
-						<div class="title">My Skills</div>
+						<div class="title">工作技能</div>
 
 						<!-- content -->
 						<div class="row">
@@ -305,7 +286,7 @@
 								<div class="skills-list circles">
 									<div class="skill-title border-line-h">
 										<div class="icon"><i class="ion ion-code"></i></div>
-										<div class="name">Coding</div>
+										<div class="name">编程</div>
 									</div>
 									<ul>
 										<li>
@@ -341,7 +322,7 @@
 								<div class="skills-list list">
 									<div class="skill-title border-line-h">
 										<div class="icon"><i class="ion ion-android-list"></i></div>
-										<div class="name">Knowledge</div>
+										<div class="name">涉猎领域</div>
 									</div>
 									<ul>
 										<li>
@@ -377,7 +358,7 @@
 								<div class="skills-list">
 									<div class="skill-title border-line-h">
 										<div class="icon"><i class="ion ion-easel"></i></div>
-										<div class="name">Framework</div>
+										<div class="name">框架</div>
 									</div>
 									<ul>
 										<li class="border-line-h">
@@ -413,7 +394,7 @@
 								<div class="skills-list dotted">
 									<div class="skill-title border-line-h">
 										<div class="icon"><i class="ion ion-flag"></i></div>
-										<div class="name">Other</div>
+										<div class="name">其他</div>
 									</div>
 									<ul>
 										<li class="border-line-h">
@@ -460,10 +441,67 @@
 					<div class="content works">
 
 						<!-- title -->
-						<div class="title">Recent Works</div>
+						<div class="title">开源项目</div>
 
 						<!-- content -->
 						<div class="row grid-items border-line-v">
+							<!-- ege -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://github.com/ege-ui/ege">
+											<img src="images/works/ege.png" />
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/work1.jpg" class="name has-popup-image">ege</a>
+										<div class="category">react组件库</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- ege-md -->
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://github.com/ege-ui/ege-markdown">
+											<img src="images/works/ege-md.png" />
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/work1.jpg" class="name has-popup-image">ege-markdown</a>
+										<div class="category">ege markdown 工具</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://github.com/ege-ui/ege-iconfont">
+											<img src="images/works/ege-iconfont.png" />
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/work1.jpg" class="name has-popup-image">ege-iconfont</a>
+										<div class="category">ege iconfont 工具</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="https://github.com/ege-ui/ege-admin-pro">
+											<img src="images/works/ege-admin-pro.png" />
+										</a>
+									</div>
+									<div class="desc">
+										<a href="images/works/work1.jpg" class="name has-popup-image">ege-admin-pro</a>
+										<div class="category">基于ege实现的中台模板</div>
+									</div>
+								</div>
+							</div>
 
 							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
 								<div class="box-item">
@@ -474,21 +512,66 @@
 									</div>
 									<div class="desc">
 										<a href="images/works/work1.jpg" class="name has-popup-image">amaze-vue</a>
-										<div class="category">vue components</div>
+										<div class="category">vue组件库</div>
 									</div>
 								</div>
 							</div>
 
-							<div class="col col-d-6 col-t-6 col-m-12 grid-item photo border-line-h">
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Card - Blog -->
+			<div class="card-inner" id="blog-card">
+				<div class="card-wrap">
+
+					<!-- Blog -->
+					<div class="content blog">
+
+						<!-- title -->
+						<div class="title">博客</div>
+
+						<!-- content -->
+						<div class="row border-line-v">
+
+							<!-- blog item -->
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
 								<div class="box-item">
 									<div class="image">
-										<a href="https://github.com/ege-ui/ege">
-											<img src="images/works/ege.png" />
+										<a href="blog/index.md">
+											<img src="images/blog/blog1.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-document-text"></span>
+											</span>
+											<span class="date"><strong>12</strong>Dec</span>
 										</a>
 									</div>
 									<div class="desc">
-										<a href="images/works/work1.jpg" class="name has-popup-image">ege</a>
-										<div class="category">react components</div>
+										<a href="blog/index.md" class="name">我真的不爱写博客，还是看我的代码吧</a>
+										<div class="category">吹牛逼不是好事情</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- blog item -->
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
+								<div class="box-item">
+									<div class="image">
+										<a href="blog/haha.md">
+											<img src="images/blog/blog2.jpg" alt="" />
+											<span class="info">
+												<span class="ion ion-document-text"></span>
+											</span>
+											<span class="date"><strong>12</strong>Dec</span>
+										</a>
+									</div>
+									<div class="desc">
+										<a href="blog/haha.md" class="name">如果真的想看，那你就点进去看看吧</a>
+										<div class="category">骗人也不是什么好事情</div>
 									</div>
 								</div>
 							</div>
@@ -509,12 +592,18 @@
 					<div class="content contacts">
 
 						<!-- title -->
-						<div class="title">Get in Touch</div>
+						<div class="title">联系方式</div>
 
 						<!-- content -->
 						<div class="row">
 							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
 								<div class="map" id="map"></div>
+								<div class="info-list">
+									<ul>
+										<li style="width: 100%"><strong>邮箱 . . . . . . . . . . . . </strong> xuecong8226@gmail.com</li>
+										<li style="width: 100%"><strong>Telegram . . . . . . . . . </strong> xuecong8226</li>
+									</ul>
+								</div>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -525,7 +614,7 @@
 					<div class="content contacts">
 
 						<!-- title -->
-						<div class="title">Contact Form</div>
+						<div class="title">信息留言</div>
 
 						<!-- content -->
 						<div class="row">
@@ -535,29 +624,29 @@
 										<div class="row">
 											<div class="col col-d-6 col-t-6 col-m-12">
 												<div class="group-val">
-													<input type="text" name="name" placeholder="Full Name" />
+													<input type="text" name="name" placeholder="你的称呼" />
 												</div>
 											</div>
 											<div class="col col-d-6 col-t-6 col-m-12">
 												<div class="group-val">
-													<input type="text" name="email" placeholder="Email Address" />
+													<input type="text" name="email" placeholder="您的邮箱" />
 												</div>
 											</div>
 											<div class="col col-d-12 col-t-12 col-m-12">
 												<div class="group-val">
-													<textarea name="message" placeholder="Your Message"></textarea>
+													<textarea name="message" placeholder="您的留言"></textarea>
 												</div>
 											</div>
 										</div>
 										<div class="align-left">
 											<a href="#" class="button" onclick="$('#cform').submit(); return false;">
-												<span class="text">Send Message</span>
+												<span class="text">发送信息</span>
 												<span class="arrow"></span>
 											</a>
 										</div>
 									</form>
 									<div class="alert-success">
-										<p>Thanks, your message is sent successfully.</p>
+										<p>非常感谢，您的信息已发送成功。</p>
 									</div>
 								</div>
 							</div>
@@ -571,11 +660,12 @@
 
 		</div>
 	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/imagesloaded.pkgd.js"></script>
-	<script src="js/isotope.pkgd.js"></script>
-	<script src="js/jquery.slimscroll.js"></script>
+
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+	<script src="https://cdn.bootcss.com/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=uh0ZynRDhpIcCuvpowVQSVX6blbtoIxh"></script>
 	<script src="js/scripts.js"></script>
 
