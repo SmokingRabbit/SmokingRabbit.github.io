@@ -1133,12 +1133,12 @@
 }
 
 .skills-list.list ul li .name:before {
-    content: "\f121";
+    content: "\c9d3";
     position: absolute;
     left: 0;
     top: 0;
     display: inline-block;
-    font-family: "Ionicons";
+    font-family: "ege-iconfont";
     color: #78cc6d;
     speak: none;
     font-style: normal;
