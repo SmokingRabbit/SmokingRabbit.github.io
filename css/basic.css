@@ -463,8 +463,8 @@ strong {
     background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
-.lnk .ion,
-.button .ion,
+.lnk .ege-icon,
+.button .ege-icon,
 .lnk .arrow,
 .button .arrow {
     margin: 0 0 0 8px;
@@ -535,8 +535,8 @@ strong {
     color: #78cc6d;
 }
 
-.lnk:hover .ion,
-.button:hover .ion {
+.lnk:hover .ege-icon,
+.button:hover .ege-icon {
     color: #78cc6d;
 }
 

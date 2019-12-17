@@ -1,0 +1,31 @@
+{
+  "name": "smokingrabbit.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.html",
+  "scripts": {
+    "iconfont": "ege-iconfont compile",
+    "open": "open ./index.html",
+    "preview": "ege-iconfont preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmokingRabbit/SmokingRabbit.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "webiste",
+    "ege",
+    "iconfont",
+    "resume"
+  ],
+  "author": "xuecong8226@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SmokingRabbit/SmokingRabbit.github.io/issues"
+  },
+  "homepage": "https://github.com/SmokingRabbit/SmokingRabbit.github.io#readme",
+  "devDependencies": {
+    "ege-iconfont": "^1.0.0"
+  }
+}

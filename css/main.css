@@ -134,12 +134,13 @@
         margin: 0 auto;
         max-width: 540px;
         display: flex;
-        box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
     }
 
     .header .top-menu ul {
         display: flex;
         width: 100%;
+        background-color: #fff;
     }
 
     .header .top-menu ul li {
@@ -608,7 +609,7 @@
     -khtml-border-radius: 60px;
 }
 
-.experience-items .experiences-item .icon .ion, .experience-items .experiences-item .icon .fab, .experience-items .experiences-item .icon .fas {
+.experience-items .experiences-item .icon .ege-icon, .experience-items .experiences-item .icon .fab, .experience-items .experiences-item .icon .fas {
     display: block;
     line-height: 60px;
 }
@@ -668,8 +669,8 @@
     background: #ffffff;
 }
 
-.resume-title .icon .ion,
-.skill-title .icon .ion,
+.resume-title .icon .ege-icon,
+.skill-title .icon .ege-icon,
 .resume-title .icon .fab,
 .skill-title .icon .fab,
 .resume-title .icon .fas,
@@ -932,7 +933,6 @@
     top: 0;
     left: 0;
     height: auto;
-    line-height: normal;
 }
 
 .header .top-menu ul li a .link {
