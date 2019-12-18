@@ -1,12 +1,13 @@
 module.exports = {
     "compile": {
-        "style": "css",
+        "syntax": "css",
         "startPoint": 51666,
         "fontName": "ege-iconfont",
         "styleFileName": "ege-iconfont",
         "selector": ".ege-icon-{{glyph}}"
     },
     "module": false,
+    "stylelint": false,
     "hash": {
         "font": false,
         "style": false,
