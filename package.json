@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/SmokingRabbit/SmokingRabbit.github.io#readme",
   "devDependencies": {
-    "ege-iconfont": "^1.0.6"
+    "ege-iconfont": "^1.0.7"
   }
 }
