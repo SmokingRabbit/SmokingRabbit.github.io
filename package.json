@@ -4,9 +4,9 @@
   "description": "personal website",
   "main": "index.html",
   "scripts": {
-    "iconfont": "ege-iconfont compile",
+    "iconfont": "cwfont compile",
     "open": "open ./index.html",
-    "preview": "ege-iconfont preview"
+    "preview": "cwfont preview"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/SmokingRabbit/SmokingRabbit.github.io#readme",
   "devDependencies": {
-    "ege-iconfont": "^1.0.7"
+    "cwfont": "^1.0.4"
   }
 }

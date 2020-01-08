@@ -4,8 +4,8 @@
 
 ***欢迎使用本模板进行二次开发***
 
-## ege-iconfont
-> 本项目中使用到了 `ege-iconfont` 进行iconfont生成和使用，欢迎大家进行参考
+## cwfont
+> 本项目中使用到了 `cwfont` 进行iconfont生成和使用，欢迎大家进行参考
 
 ### 安装依赖
 

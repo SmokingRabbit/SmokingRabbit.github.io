@@ -2,9 +2,9 @@ module.exports = {
     "compile": {
         "syntax": "css",
         "startPoint": 51666,
-        "fontName": "ege-iconfont",
-        "styleFileName": "ege-iconfont",
-        "selector": ".ege-icon-{{glyph}}"
+        "fontName": "chowa-iconfont",
+        "styleFileName": "chowa-iconfont",
+        "selector": ".cw-icon-{{glyph}}"
     },
     "module": false,
     "stylelint": false,
@@ -20,13 +20,13 @@ module.exports = {
         "semi": true
     },
     "input": {
-        "svgsDir": "./svg-icons",
+        "svgsDir": "./cwfont/svg-icons",
         "styleTpl": null,
         "previewTpl": null
     },
     "output": {
         "font": "./iconfont",
         "style": "./css",
-        "preview": "./iconfont-preview"
+        "preview": "./cwfont/"
     }
 }

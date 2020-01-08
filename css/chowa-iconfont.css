@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "chowa-iconfont";
+    src: url("../iconfont/chowa-iconfont.eot");
+    src: url("../iconfont/chowa-iconfont.eot#iefix") format("embedded-opentype"),
+        url("../iconfont/chowa-iconfont.ttf") format("truetype"), url("../iconfont/chowa-iconfont.woff") format("woff"),
+        url("../iconfont/chowa-iconfont.woff2") format("woff2"), url("../iconfont/chowa-iconfont.svg") format("svg");
+}
+
+.cw-icon {
+    display: inline-block;
+    font-family: "chowa-iconfont";
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.cw-icon-blog:before {
+    content: "\c9d2";
+}
+
+.cw-icon-check:before {
+    content: "\c9d3";
+}
+
+.cw-icon-chowa:before {
+    content: "\c9d4";
+}
+
+.cw-icon-coding:before {
+    content: "\c9d5";
+}
+
+.cw-icon-data-view:before {
+    content: "\c9d6";
+}
+
+.cw-icon-education:before {
+    content: "\c9d7";
+}
+
+.cw-icon-fe:before {
+    content: "\c9d8";
+}
+
+.cw-icon-framework:before {
+    content: "\c9d9";
+}
+
+.cw-icon-gis:before {
+    content: "\c9da";
+}
+
+.cw-icon-github:before {
+    content: "\c9db";
+}
+
+.cw-icon-grow:before {
+    content: "\c9dc";
+}
+
+.cw-icon-involve:before {
+    content: "\c9dd";
+}
+
+.cw-icon-mail:before {
+    content: "\c9de";
+}
+
+.cw-icon-other:before {
+    content: "\c9df";
+}
+
+.cw-icon-rd:before {
+    content: "\c9e0";
+}
+
+.cw-icon-send:before {
+    content: "\c9e1";
+}
+
+.cw-icon-turnip:before {
+    content: "\c9e2";
+}
+
+.cw-icon-work:before {
+    content: "\c9e3";
+}

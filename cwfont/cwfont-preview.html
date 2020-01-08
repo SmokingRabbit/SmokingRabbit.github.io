@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chowa iconfont glyphs preview</title>
+        <meta charset="utf-8" />
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html,
+            body {
+                height: 100%;
+                background-color: #fff;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            .container {
+                width: 980px;
+                margin: auto;
+            }
+
+            header {
+                padding: 22px 0;
+            }
+
+            header a img {
+                outline: none;
+                display: inline-block;
+                margin-right: 12px;
+            }
+
+            header a h1 {
+                display: inline-block;
+                color: #787878;
+                font-size: 28px;
+                line-height: 80px;
+                vertical-align: top;
+                font-weight: 400;
+            }
+
+            .logo {
+                width: 80px;
+                height: 80px;
+            }
+
+            .glyphs {
+                overflow: hidden;
+                width: 100%;
+                height: auto;
+                list-style: none;
+            }
+
+            .glyphs li {
+                width: 120px;
+                height: 148px;
+                float: left;
+                border: 1px solid #f5f5f5;
+                margin: 10px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .glyphs li:last-child,
+            .glyphs li:nth-child(10n) {
+                border-right: 1px solid #f5f5f5;
+            }
+
+            .glyphs li .icon {
+                height: 110px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #565656;
+                font-size: 28px;
+                transition: all 0.2s ease-in;
+            }
+
+            .glyphs li .name {
+                height: 38px;
+                line-height: 38px;
+                color: #787878;
+                text-align: center;
+                transition: all 0.2s ease-in;
+                cursor: copy;
+                overflow: hidden;
+                font-size: 12px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding: 0 8px;
+            }
+
+            .glyphs li:hover {
+                background-color: #7774e7;
+                border-color: #7774e7;
+            }
+
+            .glyphs li:hover .icon {
+                font-size: 42px;
+                color: #fff;
+            }
+
+            .glyphs li:hover .name {
+                color: #eee;
+            }
+
+            @font-face {
+                font-family: "chowa-iconfont";
+                src: url("../iconfont/chowa-iconfont.eot");
+                src: url("../iconfont/chowa-iconfont.eot#iefix") format("embedded-opentype"),
+                    url("../iconfont/chowa-iconfont.ttf") format("truetype"),
+                    url("../iconfont/chowa-iconfont.woff") format("woff"),
+                    url("../iconfont/chowa-iconfont.woff2") format("woff2"),
+                    url("../iconfont/chowa-iconfont.svg") format("svg");
+            }
+
+            .cw-icon {
+                display: inline-block;
+                font-family: "chowa-iconfont";
+                font-style: normal;
+                font-weight: 400;
+                font-variant: normal;
+                line-height: 1;
+                text-decoration: inherit;
+                text-rendering: optimizeLegibility;
+                text-transform: none;
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-smoothing: antialiased;
+                font-smoothing: antialiased;
+            }
+
+            .cw-icon-blog:before {
+                content: "\c9d2";
+            }
+
+            .cw-icon-check:before {
+                content: "\c9d3";
+            }
+
+            .cw-icon-chowa:before {
+                content: "\c9d4";
+            }
+
+            .cw-icon-coding:before {
+                content: "\c9d5";
+            }
+
+            .cw-icon-data-view:before {
+                content: "\c9d6";
+            }
+
+            .cw-icon-education:before {
+                content: "\c9d7";
+            }
+
+            .cw-icon-fe:before {
+                content: "\c9d8";
+            }
+
+            .cw-icon-framework:before {
+                content: "\c9d9";
+            }
+
+            .cw-icon-gis:before {
+                content: "\c9da";
+            }
+
+            .cw-icon-github:before {
+                content: "\c9db";
+            }
+
+            .cw-icon-grow:before {
+                content: "\c9dc";
+            }
+
+            .cw-icon-involve:before {
+                content: "\c9dd";
+            }
+
+            .cw-icon-mail:before {
+                content: "\c9de";
+            }
+
+            .cw-icon-other:before {
+                content: "\c9df";
+            }
+
+            .cw-icon-rd:before {
+                content: "\c9e0";
+            }
+
+            .cw-icon-send:before {
+                content: "\c9e1";
+            }
+
+            .cw-icon-turnip:before {
+                content: "\c9e2";
+            }
+
+            .cw-icon-work:before {
+                content: "\c9e3";
+            }
+        </style>
+    </head>
+
+    <body>
+        <section class="container">
+            <header>
+                <a href="https://github.com/chowa/cwfont">
+                    <img class="logo" src="http://upload.ouliu.net/i/202001081600304i7x6.png" />
+                    <h1>cwfont</h1>
+                </a>
+            </header>
+
+            <ul class="glyphs">
+                <!-- <li>
+    				<div class="icon">
+    					<i class="icon icon-test"></i>
+    				</div>
+    				<div class="name">test</div>
+    			</li> -->
+                <li title=".cw-icon-blog">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-blog"></i>
+                    </div>
+                    <div class="name">.cw-icon-blog</div>
+                </li>
+                <li title=".cw-icon-check">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-check"></i>
+                    </div>
+                    <div class="name">.cw-icon-check</div>
+                </li>
+                <li title=".cw-icon-chowa">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-chowa"></i>
+                    </div>
+                    <div class="name">.cw-icon-chowa</div>
+                </li>
+                <li title=".cw-icon-coding">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-coding"></i>
+                    </div>
+                    <div class="name">.cw-icon-coding</div>
+                </li>
+                <li title=".cw-icon-data-view">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-data-view"></i>
+                    </div>
+                    <div class="name">.cw-icon-data-view</div>
+                </li>
+                <li title=".cw-icon-education">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-education"></i>
+                    </div>
+                    <div class="name">.cw-icon-education</div>
+                </li>
+                <li title=".cw-icon-fe">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-fe"></i>
+                    </div>
+                    <div class="name">.cw-icon-fe</div>
+                </li>
+                <li title=".cw-icon-framework">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-framework"></i>
+                    </div>
+                    <div class="name">.cw-icon-framework</div>
+                </li>
+                <li title=".cw-icon-gis">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-gis"></i>
+                    </div>
+                    <div class="name">.cw-icon-gis</div>
+                </li>
+                <li title=".cw-icon-github">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-github"></i>
+                    </div>
+                    <div class="name">.cw-icon-github</div>
+                </li>
+                <li title=".cw-icon-grow">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-grow"></i>
+                    </div>
+                    <div class="name">.cw-icon-grow</div>
+                </li>
+                <li title=".cw-icon-involve">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-involve"></i>
+                    </div>
+                    <div class="name">.cw-icon-involve</div>
+                </li>
+                <li title=".cw-icon-mail">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-mail"></i>
+                    </div>
+                    <div class="name">.cw-icon-mail</div>
+                </li>
+                <li title=".cw-icon-other">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-other"></i>
+                    </div>
+                    <div class="name">.cw-icon-other</div>
+                </li>
+                <li title=".cw-icon-rd">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-rd"></i>
+                    </div>
+                    <div class="name">.cw-icon-rd</div>
+                </li>
+                <li title=".cw-icon-send">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-send"></i>
+                    </div>
+                    <div class="name">.cw-icon-send</div>
+                </li>
+                <li title=".cw-icon-turnip">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-turnip"></i>
+                    </div>
+                    <div class="name">.cw-icon-turnip</div>
+                </li>
+                <li title=".cw-icon-work">
+                    <div class="icon">
+                        <i class="cw-icon cw-icon-work"></i>
+                    </div>
+                    <div class="name">.cw-icon-work</div>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>
