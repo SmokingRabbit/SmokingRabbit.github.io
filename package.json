@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/SmokingRabbit/SmokingRabbit.github.io#readme",
   "devDependencies": {
-    "cwfont": "^1.0.4"
+    "cwfont": "^1.0.6"
   }
 }

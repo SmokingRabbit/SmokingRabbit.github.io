@@ -2,30 +2,33 @@
 
 > My personal website
 
-***欢迎使用本模板进行二次开发***
+***Welcome to use this template for secondary development***
 
 ## cwfont
-> 本项目中使用到了 `cwfont` 进行iconfont生成和使用，欢迎大家进行参考
 
-### 安装依赖
+[cwfont](https://github.com/chowa/cwfont) for iconfont generation
+
+### Install
 
 ```
 npm i
 ```
 
-### 生成iconfont
+### Generation iconfont
 
 ```
+// cwfont compile
 npm run iconfont
 ```
 
-### 预览iconfont
+### Preview iconfont
 
 ```
+// cwfont preview
 npm run preview
 ```
 
-### 打开项目
+### Open project
 
 ```
 npm run open
