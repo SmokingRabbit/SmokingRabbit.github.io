@@ -1,0 +1,28 @@
+---
+  compile:
+    syntax: "css"
+    startPoint: 51666
+    fontName: "chowa-iconfont"
+    styleFileName: "chowa-iconfont"
+    selector: ".cw-icon-{{glyph}}"
+  global: false
+  stylelint: false
+  hash:
+    font: false
+    style: false
+    len: 8
+  preview: true
+  format:
+    printWidth: 120
+    tabWidth: 4
+    useTabs: false
+    semi: true
+    endOfLine: "lf"
+  input:
+    svgsDir: "./cwfont/svg-icons"
+    styleTpl: null
+    previewTpl: null
+  output:
+    font: "./iconfont"
+    style: "./css"
+    preview: "./cwfont"
